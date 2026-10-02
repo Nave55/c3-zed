@@ -32,6 +32,7 @@
   (ident)
   (ct_ident)
   (hash_ident)
+  (at_ident)
 ] @variable
 
 ; 1) Member
@@ -245,7 +246,7 @@
 
 (real_literal) @number.float
 
-(char_literal) @character
+(char_literal) @string
 
 (bytes_literal) @number
 
